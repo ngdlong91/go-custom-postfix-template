@@ -1,4 +1,4 @@
-## number conversions ##
+## Gin postfix  ##
 
-.bindJSON : struct / slice equal
+.bindJSON : Gin context bind json struct
     ANY        →  $CONTEXT$.ShouldBindJSON($expr$)

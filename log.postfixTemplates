@@ -1,0 +1,13 @@
+## Gin postfix  ##
+
+.info : Log info
+    STRING        →  $CONTEXT$.log.Infof($expr$)
+
+.error : Log info
+    STRING        →  $CONTEXT$.log.Errorf($expr$)
+
+.debug : Log info
+    STRING        →  $CONTEXT$.log.Debugf($expr$)
+
+.warn : Log info
+    STRING        →  $CONTEXT$.log.Warnf($expr$)
